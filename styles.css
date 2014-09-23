@@ -1,0 +1,107 @@
+.container {
+	width: 100%;
+	overflow: auto;
+	margin: auto 0;
+	padding: 10px;
+	background-color:#E2E1E9;
+}
+
+.header {
+	height:200px;
+	margin: auto 0;
+	padding:0px;
+}
+	
+h1 {
+	font-family: "Oleo Script", cursive;
+	letter-spacing:1px;
+	word-spacing: 5px;
+	font-size:72px;
+	color:#5F6273;
+	text-align: center;
+	margin: auto 0;
+}
+
+#header2 h2 {
+	font-family: "Futura", sans-serif;
+	font-weight: bold;
+	font-size:38px;
+	color:#5F6273;
+	text-align: center;
+	margin: auto 0;
+}
+
+hr {
+	width: 100%;
+	height: 4px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+	color:#FFFFFF;
+	border: 0 none;
+}
+
+a:link {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+a:visited {
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+#firstcolumn, #secondcolumn, #thirdcolumn, #fourthcolumn {
+	height:500px;
+	width:275px;
+	margin:30px;
+	background-color:#A4ABBF;
+	border-radius:10px;
+}
+
+#firstcolumn, #secondcolumn, #thirdcolumn, #fourthcolumn {
+	float:left;
+}
+
+.blocks {
+	font-family: "Futura", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	padding:0;
+	line-height:500px;
+}
+
+
+.blocks :hover {
+	background-color: #F00807;
+	border-radius: 10px;
+}
+
+.footer {
+	clear: left;
+}
+		
+#footer{
+	height:100px;
+	background:#5F6273;
+	margin:0;
+	padding:0;
+	}
+
+#footer {
+	font-style: "futura", sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #E3E1E9;
+	text-align: center;
+}
+
+.footer-social {
+	text-align: center;
+	padding: 0px;
+	margin: center;
+}
